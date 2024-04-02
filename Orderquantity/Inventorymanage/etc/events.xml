@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="sales_order_place_after">
+        <observer name="place_order_after" instance="Orderquantity\Inventorymanage\Observer\Orderplaceafter"/>
+    </event>
+    <event name="sales_order_item_cancel">
+        <observer name="sales_order_save_after" instance="Orderquantity\Inventorymanage\Observer\OrderItemCancel"/>
+    </event>
+    <event name="sales_order_shipment_save_after">
+        <observer name="sales_order_shipment_after" instance="Orderquantity\Inventorymanage\Observer\ShipmentGenerateAfter"/>
+    </event>
+    <event name="sales_order_creditmemo_save_after">
+        <observer name="inventory" instance="Orderquantity\Inventorymanage\Observer\RefundOrderInventoryObserver"/>
+    </event>
+</config>
