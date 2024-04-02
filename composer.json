@@ -2,11 +2,20 @@
     "name": "orderquantity/inventory-manage",
     "description": "Salable quantity and default quantity both will be decreased on order place to make the inventory same",
     "type": "magento2-module",
-    "license": "Commercial",
     "version": "1.0.0",
+    "license": "proprietary",
+    "keywords": [
+        "magento 2",
+        "inventory",
+        "inventory manage",
+        "magento 2 inventory",
+        "magento 2 Salable quantity"
+      ],
     "authors": [
         {
-            "name": "Ankit Patel"
+            "name": "Ankit Patel",
+            "email": "ankitjpatel28@gmail.com",
+            "role": "Technical Support"
         }
     ],
     "autoload": {
