@@ -1,0 +1,20 @@
+{
+    "name": "orderquantity/inventory-manage",
+    "description": "Salable quantity and default quantity both will be decreased on order place to make the inventory same",
+    "type": "magento2-module",
+    "license": "Commercial",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ankit Patel"
+        }
+    ],
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+          "Orderquantity\\Inventorymanage\\": ""
+        }
+    }
+}
