@@ -3,7 +3,6 @@
     "description": "Salable quantity and default quantity both will be decreased on order place to make the inventory same",
     "type": "magento2-module",
     "version": "1.0.0",
-    "license": "proprietary",
     "keywords": [
         "magento 2",
         "inventory",
