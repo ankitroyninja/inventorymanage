@@ -25,6 +25,5 @@
         "psr-4": {
           "Orderquantity\\Inventorymanage\\": ""
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
